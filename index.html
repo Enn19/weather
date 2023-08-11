@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./img/Instagram bookmark icon.png">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="Home">
+         <!--navbar-->
+    <nav class="navbar navbar-expand-lg my-5">
+        <div class="container">
+          <!-- <a class="navbar-brand ms-5" href="#">Weather</a> -->
+          <a class="branding float-end" href="/">
+            <img src="img/logo.png" alt="" class="logo d-inline-block me-3 ">
+            <div class="logo-type d-inline-block">
+                <h1 class="site-title mb-1 ">Weather</h1>
+                <small class="site-description">tagline goes here</small>
+            </div>
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
+            <div class="navbar-nav mx-auto ">
+              <a class="nav-link active ms-5" aria-current="page" href="#">Home</a>
+              <a class="nav-link ms-5" href="#">News</a>
+              <a class="nav-link ms-5" href="#">Live camers</a>
+              <a class="nav-link ms-5" href="#">Photos</a>
+              <a class="nav-link ms-5" href="#">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--header-->
+      <div class="hero">
+        <div class="countainer">
+          <form class="location position-relative mb-3 w-75 m-auto">
+						<input type="text" placeholder="Find your location..." id="search" class="text">
+						<input type="button" id="submit" value="Find" class="button">
+					</form>
+        </div>
+      </div>
+      <!-- weather-->
+
+      <div class="forecast-table">
+				<div class="container">
+					<div class="forecast-container" id="forecast">
+						
+						
+					
+					</div>
+				</div>
+			</div>
+	
+<!--footer-->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <form  class="subscribe position-relative mb-2">
+          <input type="text" placeholder="Enter your email to subscribe..." class="sub">
+          <input type="submit" value="Subscribe" class="submit">
+        </form>
+      </div>
+      <div class="col-md-3 col-md-offset-1">
+        <div class="social-links ms-5">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+      </div>
+    </div>
+    <p class="mt-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+  </div>
+</footer>
+      </section>
+    <!--java-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/mine.js"></script>
+</body>
+</html>
